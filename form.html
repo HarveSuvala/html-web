@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Form</title>
+	<style>
+		table
+		{
+			color:#000000;
+			background-color:cadetblue;
+			border-radius: 30px;
+			font-family: cursive;
+			font-style: italic;
+		}
+		#btn
+		{
+			background-color: #03fce7;
+			color: black;
+			height: 25px;
+			width: 100px;
+			border-radius: 25px;
+		}
+		select
+		{
+			width: 68px;
+		}
+		body{
+			background: linear-gradient(to top ,#030ffc,#03fce7);
+		}
+
+	</style>
+</head>
+<body>
+	<br><br>
+	<h1 align="center">Intel Sign-Form</h1>
+	<h2 align="center"> Sign up to get intel on Cryptography</h2>
+	<form action="web.html">
+	<table  cellspacing="20" align="center">
+		<tr>
+			<td>first name<td><input type="character" placeholder="first name" size="25" required></td>
+		</tr>
+		<tr>
+			<td>last name <td> <input type="text" placeholder="last name" size="25" required></td>
+		</tr>
+	<tr>
+		<td>email <td><input type="email" placeholder="abc123@xyz.com" size="25" required></td>
+	</tr>
+	<tr>
+		<td>password <td><input type="text" placeholder="********"   size="25" required ></td>
+	</tr>
+	<tr>
+		<td>confirm password <td><input type="text"  size="25"required></td>
+	</tr>
+	<tr>
+		<td>mobile numeber</td>
+		<td> <input type="number" placeholder="1234567890" maxlength="10" required>
+	</tr>
+	<tr>
+		<td>gender <td><input type="radio" name="r1">Male 
+	<input type="radio" name="r1" required>Female
+</td>
+	</tr>
+	<tr>
+		<td>DOB </td>
+		<td><input type="date" name="date">
+	</tr>
+	
+	<tr>
+		<td align="center" colspan="2">
+			<input type="submit" id="btn">
+		</td>
+	</tr>
+
+	</form>
+</table>
+</body>
+</html>

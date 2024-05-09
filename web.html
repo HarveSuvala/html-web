@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Jersey+25&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(50deg, cyan, Maroon);
+
+           
+        }
+        header {
+            font-family: 'Jacquard 24', sans-serif;
+            font-size: 36px;
+            color: black;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            color: gold;
+        }
+        nav a {
+            
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+               color: gold;
+        }
+        nav a:hover {
+            background-color: #3d0101;
+            
+        }
+        section {
+            padding: 5px;
+            text-align: justify;
+           
+          
+        }
+        section h2 {
+            color: #333;
+            font-family: 'Jersey 25', sans-serif;
+            font-size: 20px;
+           
+        }
+        section p {
+            line-height: 1;
+            font-size: 15px;
+        }
+        footer {
+            background-color: #0d4d3f;
+            color: #fff;
+            text-align: center;
+            padding: 02px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cryptography</h1>
+    </header>
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#history">History</a>
+        <a href="#types">Types</a>
+        <a href="#applications">Applications</a>
+    </nav>
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p><b>Cryptography is the practice and study of techniques for secure communication in the presence of third parties. Cryptography prior to the modern age was effectively synonymous with encryption, converting readable information (plaintext) to unintelligible nonsense text (ciphertext), which can only be read by reversing the process (decryption). The sender of an encrypted (coded) message shares the decryption (decoding) technique only with the intended recipients to preclude access from adversaries. The cryptography literature often uses the names "Alice" (or "A") for the sender, "Bob" (or "B") for the intended recipient, and "Eve" (or "E") for the eavesdropping adversary. Since the development of rotor cipher machines in World War I and the advent of computers in World War II, cryptography methods have become increasingly complex and their applications more varied.</p>
+    </section>
+    <section id="history">
+        <h2>History</h2>
+        <p><b>The history of cryptography spans thousands of years, dating back to ancient civilizations. Before the modern era, cryptography focused on message confidentiality (i.e., encryption)—conversion of messages from a comprehensible form into an incomprehensible one and back again at the other end, rendering it unreadable by interceptors or eavesdroppers without secret knowledge (namely the key needed for decryption of that message). Encryption attempted to ensure secrecy in communications, such as those of spies, military leaders, and diplomats. In recent decades, the field has expanded beyond confidentiality concerns to include techniques for message integrity checking, sender/receiver identity authentication, digital signatures, interactive proofs and secure computation, among others.</p>
+    </section>
+    <section id="types">
+        <h2>Types</h2>
+        <p><b>There are various types of cryptographic techniques including symmetric-key cryptography, public-key cryptography, and hashing.</p>
+    </section>
+    <section id="applications">
+        <h2>Applications</h2>
+        <p><b>Cryptography is used in various applications such as securing communications, protecting data, and ensuring the integrity of information. Cryptography is widely used on the internet to help protect user-data and prevent eavesdropping. To ensure secrecy during transmission, many systems use private key cryptography to protect transmitted information. With public-key systems, one can maintain secrecy without a master key or a large number of keys. But, some algorithms like Bitlocker and Veracrypt are generally not private-public key cryptography. For example, Veracrypt uses a password hash to generate the single private key. However, it can be configured to run in public-private key systems. The C++ opensource encryption library OpenSSL provides free and opensource encryption software and tools. The most commonly used encryption cipher suit is AES, as it has hardware acceleration for all x86 based processors that has AES-NI. A close contender is ChaCha20-Poly1305, which is a stream cipher, however it is commonly used for mobile devices as they are ARM based which does not feature AES-NI instruction set extension.</p>
+    </section>
+  
+    <footer>
+        <p>This web page is created by Harve Suvala</p>
+    </footer>
+</body>
+</html>
